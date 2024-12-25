@@ -1,0 +1,296 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color:#2D2D2D;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.vsess{
+
+
+	
+
+}
+
+.please {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #575555;
+	
+}
+
+.logo{
+	height:43px;
+	width: 73px;
+	
+}
+
+.pravhead {
+	height: 16px;
+	widht:294px;
+	padding-top: 20px;
+	display: flex;
+	justify-content:right;
+	marging-bottom: 10px;
+	gap: 10px;
+	color:white;
+	font-family: Rubik;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+
+
+
+
+}
+
+
+.vseel {
+		display: flex;
+		flex-direction: row;
+}
+
+
+	.maintext {
+		widht:821px;
+		padding-top:248px;
+		font-size:45px;
+		color: white;
+		font-family: "Rubik";
+		font-weight: 900;
+
+	}
+
+	.bezk {
+		display: flex;
+		flex-direction: column;
+
+
+	}
+
+	.mintext {
+		margin-top: 20px;
+		font-family: Rubik;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 28.8px;
+		text-align: left;
+		text-underline-position: from-font;
+		text-decoration-skip-ink: none;
+
+
+	}
+
+	.mintext p1 {
+		color:#00D5E4;
+		font-size: 24px;
+		font-weight: 900;
+
+	}
+
+	.mintext p {
+
+		color: white;
+		font-size: 24px;
+	}
+
+
+	.krugi {
+		display: flex;
+
+
+
+	}
+
+	.left-circle {
+		padding-top: 25px;
+		display: flex;
+
+
+		width: 356px;
+		height: 14px;
+
+		gap: 20px;
+
+
+
+	}
+
+	.right-circle{
+		padding-top: 25px;
+		display: flex;
+
+		width: 356px;
+		height: 14px;
+
+		gap: 20px;
+	}
+
+	.textik-1{
+		padding-top: 25px;
+		color: white;
+		display:flex;
+		width: 222px;
+		height: 75px;
+		font-family: Rubik;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25.29px;
+		text-align: left;
+		text-underline-position: from-font;
+		text-decoration-skip-ink: none;
+
+	}
+
+	.textik-2{
+		padding-top: 25px;
+		color: white;
+		display:flex;
+		width: 222px;
+		height: 75px;
+		font-family: Rubik;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 25.29px;
+		text-align: left;
+		text-underline-position: from-font;
+		text-decoration-skip-ink: none;
+
+	}
+
+	.banka{
+
+	}
+
+
+
+	.rubik  {
+		font-family: "Rubik", serif;
+		font-optical-sizing: auto;
+		font-weight: <weight>;
+		font-style: normal;
+	}
+
+
+	@media (max-width: 700px) {
+      .please {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .vseel {
+      	display: flex;
+        flex-direction: column;
+      }
+
+      .logo {
+        height: 30px;
+        width: 50px;
+        margin-top: 10px;
+      }
+
+      .pravhead {
+        width: auto;
+        justify-content: center;
+        margin-bottom: 5px;
+        margin-top: 10px;
+      }
+
+      .maintext {
+        width: auto;
+        padding-top: 100px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 20px;
+      }
+
+      .mintext {
+        font-size: 18px;
+        line-height: 24px;
+        text-align:left;
+        padding-left: 20px;
+      }
+
+      .mintext p1 {
+        font-size: 18px;
+      }
+
+      .mintext p {
+        font-size: 18px;
+      }
+
+      .krugi {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .left-circle,{
+        width: auto;
+        gap: 10px;
+      }
+
+      .right-circle {
+      	padding-top: 150px;
+      }
+
+      .textik-1, .textik-2 {
+        width: auto;
+        font-size: 16px;
+        line-height: 22px;
+      }
+
+      .banka {
+      	margin-top: 100px;
+      	
+
+      }
+
+      .banka-img {
+      	box-sizing: content-box;
+      	width: 500px;
+      	height: auto;
+      	
+      }
+
+
+    }
